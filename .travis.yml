@@ -1,15 +1,15 @@
 language: bash
 os: linux
 
-before_install:
-  - sudo apt-get update
-  - sudo apt-get install automake
-  - sudo apt-get install autoconf
-  - sudo apt-get install libtool
-  - sudo apt-get install make
-  - sudo apt-get install strip
-  - sudo apt-get install clang
-  - sudo apt-get install go
-  
+# before_install:
+#   - sudo apt-get update
+#   - sudo apt-get install automake
+#   - sudo apt-get install autoconf
+#   - sudo apt-get install libtool
+#   - sudo apt-get install make
+#   - sudo apt-get install strip
+#   - sudo apt-get install clang
+#   - sudo apt-get install go
+
 script:
   - bash equality_test.sh
