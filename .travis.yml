@@ -1,5 +1,6 @@
-language: c++
+language: cpp
 os: linux
+compiler: clang
 
 # before_install:
 #   - sudo apt-get update
@@ -12,4 +13,4 @@ os: linux
 #   - sudo apt-get install go
 
 script:
-  - bash equality_test.sh
+  - bash ./Setup.sh
