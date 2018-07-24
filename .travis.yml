@@ -1,4 +1,4 @@
-language: bash
+language: c++
 os: linux
 
 # before_install:
